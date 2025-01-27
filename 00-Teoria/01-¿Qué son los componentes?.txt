@@ -1,0 +1,25 @@
+¿Que es un componente?
+    Un componente es una pequeña pieza de código encapsulada reutilizable
+    el cual puede tener estado o no.
+
+La notación UpperCamelCase o PascalCase es la adecuada para nombrar a los componentes,
+por ejemplo:
+    Menu
+    MenuItem
+
+Dado un ejempli utilizando Twitter tenemos que:
+TwitterApp > Router > Screen/Pagina > Menu > MenuItem
+En donde:
+    TwitterApp es el componente padre y va a enmarcar a todos los
+    componentes hijos (Router > Screen/Pagina > Menu > MenuItem)
+
+    Y a su vez, un componente hijo puede enmarcar a mas componentes hijos.
+
+DOM
+Document Object Model
+
+¿Que es un FRAGMENT?
+    Es un agrupado de otros elements HTML o en el caso de React,
+    es un agrupado de elementos jsx, en el cual se tiene un por lo menos un nodo padre
+    y dentro de éste, pueden regresar cuantos elementos se necesiten, pero lo importante
+    es que exista un nodo padre.
