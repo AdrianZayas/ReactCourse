@@ -1,0 +1,5 @@
+Pruebas unitarias:
+    están enfocadas en pequeñas funcionalidades de su aplicación, en pequeñas piezas que hay que probar.
+
+Pruebas de integración:
+    Están enfocadas en ver como reaccionan varias piezas en conjunto. 
